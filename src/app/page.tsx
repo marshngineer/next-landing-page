@@ -1,12 +1,13 @@
+import AppInfo from "@/components/organism/app-info";
 import AppWrapper from "@/components/organism/app-wrapper";
+import Hero from "@/components/organism/hero";
 
 export default function Home() {
   return (
-    <AppWrapper>
-      <div className="">
-        <p>Working with all productivity rule on your side</p>
-        <div>Meet GatherHours</div>
-      </div>
+    <AppWrapper className="min-h-[500px] h-5/6">
+      <Hero />
+
+      <AppInfo />
     </AppWrapper>
   );
 }
